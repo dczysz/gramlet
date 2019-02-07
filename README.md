@@ -1,4 +1,4 @@
-<img src="https://github.com/dczysz/gramlet/blob/master/gramlet-128.png" alt="Gramlet Logo" align="right">
+<img src="https://github.com/dczysz/gramlet/blob/master/img/gramlet-128.png" alt="Gramlet Logo" align="right">
 
 # GRAMLET 
 
