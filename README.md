@@ -1,4 +1,4 @@
-# GRAMLET ![alt text](https://github.com/dczysz/gramlet/blob/master/gramlet-32.png "Logo Title Text 1")
+# GRAMLET ![gramlet icon](https://github.com/dczysz/gramlet/blob/master/gramlet-32.png)
 
 A bookmarklet for viewing full size photos and videos on Instagram
 
