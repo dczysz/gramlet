@@ -6,7 +6,6 @@
     <link rel="icon" href="gramlet.ico">
     <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <script src="lib/jquery.min.js"></script>
   </head>
   <body>
 
@@ -37,12 +36,13 @@
 
     <script src="dist/gramlet.min.js" charset="utf-8"></script>
     <script>
-      $(document).ready(function() {
-        $("#year").text((new Date).getFullYear());
+      window.onload = function() {
+        // Update year
+        document.getElementById('year').innerText = (new Date).getFullYear();
 
         // Set draggable bookmarklet link
         document.getElementById('bookmarklet').setAttribute('href', bookmarkJs);
-      });
+      };
     </script>
   </body>
 </html>
