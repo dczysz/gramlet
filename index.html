@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>GRAMLET</title>
+    <link rel="icon" href="gramlet.ico">
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="lib/jquery.min.js"></script>
+  </head>
+  <body>
+
+    <section>
+      <h1>GRAMLET</h1>
+      <h2 id="description">A bookmarklet for viewing full size photos on Instagram</h2>
+      <a id="bookmarklet">[ GRAMLET ]</a>
+      <p id="dragP">Drag this button to the bookmarks bar of your browser</p>
+    </section>
+
+    <footer>Copyright &copy; <span id="year">2019</span> D. Czysz</footer>
+
+
+    <script src="dist/gramlet.min.js" charset="utf-8"></script>
+    <script>
+      $(document).ready(function() {
+        $("#year").text((new Date).getFullYear());
+
+        // Set draggable bookmarklet link
+        document.getElementById('bookmarklet').setAttribute('href', bookmarkJs);
+      });
+    </script>
+  </body>
+</html>
