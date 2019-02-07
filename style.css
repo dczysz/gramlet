@@ -16,7 +16,7 @@ section {
   right: 0;
   bottom: 0;
   left: 0;
-  height: 350px;
+  height: 420px;
   margin: auto;
 }
 h1 {
@@ -39,9 +39,11 @@ h1 {
   border-radius: 3px;
   text-decoration: none;
 }
-
 #dragP {
-  margin-top: 35px;
+  margin: 30px 0;
+}
+ol {
+  padding: 0;
 }
 footer {
   position: fixed;
