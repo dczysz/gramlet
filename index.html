@@ -28,19 +28,14 @@
       <ol>
         <li>open Instagram</li>
         <li>view a photo or video</li>
-        <li>click on&nbsp;&nbsp;[ gramlet ]</li>
+        <li>click on gramlet</li>
       </ol>
     </section>
-
-    <footer>Copyright &copy; <span id="year">2019</span> D. Czysz</footer>
 
 
     <script src="dist/gramlet.min.js" charset="utf-8"></script>
     <script>
       window.onload = function() {
-        // Update year
-        document.getElementById('year').innerText = (new Date).getFullYear();
-
         // Set draggable bookmarklet link
         document.getElementById('bookmarklet').setAttribute('href', bookmarkJs);
       };
